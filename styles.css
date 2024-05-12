@@ -145,7 +145,7 @@ header{
   .carousel img:first-child{
     margin-left: 0px;
   }
-  
+
 
 
 
@@ -155,7 +155,8 @@ header{
 
   @media screen and (max-width: 900px) {
     .carousel img{
-      width: calc(100% / 2);
+      width: 100%;
+      transition: all .5s ease;
     }
   }
 
@@ -171,6 +172,9 @@ header{
     .content{
         padding: 100px 2%;
         transition: all .2s ease;
+    }
+    .wrapper{
+        transition: all .5s ease;
     }
 }
 
