@@ -33,6 +33,7 @@ header{
     padding: 28px 12%;
     transition: all .5s ease;
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -77,8 +78,37 @@ header{
     display: none;
 }
 
-.content{
-    padding: 120px
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 120px;
+    padding-top: 0;
+}
+
+section:nth-child(odd) {
+    background: var(--main-color);
+}
+
+section h1{
+    font-size: 40px;
+}
+
+
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
 
 .wrapper{
@@ -169,10 +199,12 @@ header{
         padding: 5px 0;
         margin: 0 20px;
     }
-    .content{
+    section{
         padding: 100px 2%;
+        align-items: start;
         transition: all .2s ease;
     }
+
     .wrapper{
         transition: all .5s ease;
     }
