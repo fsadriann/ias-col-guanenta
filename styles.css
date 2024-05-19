@@ -217,4 +217,20 @@ section h1{
     border-radius: 10px; /* Redondea las esquinas */
 }
 
+.sec1{
+  display: grid;
+  grid-template-columns: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: start;
+  justify-content: center;
+}
+.sec1 img{
+  height: 60vh;
+  border-radius: 15px;
+  align-items: center;
+}
 
+.ia-details{
+  display: none;
+}
