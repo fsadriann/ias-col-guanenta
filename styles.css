@@ -115,59 +115,69 @@ section h1{
 }
 
 .wrapper{
-    display: flex;
-    height: 300px;
-    background: var(--head-color);
-    padding: 15px;
-    border-radius: 20px;
-    position: relative;
-    width: 100%;
-  }
-
-  .wrapper i{
-    top: 50%;
-    height: 44px;
-    width: 44px;
-    color: var(--text-color);
-    cursor: pointer;
-    font-size: 1.15rem;
-    position: absolute;
-    text-align: center;
-    line-height: 44px;
-    background: #fff;
-    border-radius: 50%;
-    transform: translateY(-50%);
-    transition:  all 0.5s ease;
-    scroll-behavior: smooth;
-  }
-  .wrapper i:active{
-    transform: translateY(-50%) scale(0.9);
-  }
-  .wrapper i:hover{
-    background: var(--main-color);
-    color: var(--head-color);
-  }
-  .wrapper i:first-child{
-    left: -22px;
-    display: none;
-  }
-  .wrapper i:last-child{
-    right: -22px;
-  }
-  .wrapper .carousel{
-    font-size: 0px;
-    cursor: pointer;
-    overflow: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-  }
-  .carousel.dragging{
-    cursor: grab;
-    scroll-behavior: auto;
-  }
-  .carousel.dragging img{
-    pointer-events: none;
-  }
+  display: flex;
+  height: 300px;
+  background: var(--head-color);
+  padding: 15px;
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition:  all 0.5s ease;
+  scroll-behavior: smooth;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: var(--main-color);
+  color: var(--head-color);
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+  border-radius: 10px;
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
 
 
 
