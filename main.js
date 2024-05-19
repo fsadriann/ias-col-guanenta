@@ -97,3 +97,35 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const carousel = document.querySelector(".carousel");
+    const iaDetails = document.querySelectorAll(".ia-details");
+
+    carousel.addEventListener("click", function(event) {
+        const clickedImage = event.target.closest("img");
+        if (!clickedImage) return;
+
+        // Ocultar todos los detalles de IA
+        iaDetails.forEach(function(detail) {
+            detail.classList.add("hidden");
+        });
+
+        // Mostrar el detalle de la IA seleccionada
+        const iaId = clickedImage.getAttribute("data-ia");
+        const selectedIADetail = document.getElementById(iaId);
+        selectedIADetail.classList.remove("hidden");
+    });
+});
+
+
+document.querySelectorAll('.carousel a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+    });
+});
+
