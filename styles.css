@@ -221,13 +221,17 @@ section h1{
   display: grid;
   grid-template-columns: 50% 50%;
   column-gap: 5px;
-  align-items: start;
+  align-items: center;
   align-content: center;
 }
 .ai-sections img{
   height: 50vh;
   border-radius: 15px;
   align-items: center;
+}
+
+.col-left h1{
+  padding-bottom: 20px;
 }
 
 .ia-details{
