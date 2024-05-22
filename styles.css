@@ -89,7 +89,7 @@ section{
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 120px;
+    padding: 20px;
     padding-top: 0;
 }
 
@@ -223,15 +223,24 @@ section h1{
   column-gap: 5px;
   align-items: center;
   align-content: center;
+  justify-content: center;
 }
 .ai-sections img{
-  height: 50vh;
+  height: 55vh;
   border-radius: 15px;
   align-items: center;
 }
 
 .col-left h1{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+.col-left{
+  background-color: var(--head-color);
+  height: 50vh;
+  color: var(--head-text-color);
+  padding: 20px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 .ia-details{
