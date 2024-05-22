@@ -194,29 +194,6 @@ section h1{
   margin-left: 0px;
 }
 
-
-
-  .ia-details {
-    /* Establecemos un ancho máximo para evitar que el contenido se desborde */
-    max-width: 100%;
-    /* Alineamos el contenido en el centro */
-    text-align: center;
-}
-
-.ia-details .ia {
-    /* Añadimos margen entre cada detalle de IA */
-    margin-bottom: 20px;
-}
-
-/* Estilos CSS adicionales en styles.css */
-
-.ia-details {
-    background-color: white; /* Fondo blanco */
-    padding: 30px; /* Aumenta el espacio alrededor del contenido */
-    border: 2px solid var(--main-color); /* Añade un borde de color principal */
-    border-radius: 10px; /* Redondea las esquinas */
-}
-
 .ai-sections{
   display: grid;
   grid-template-columns: 50% 50%;
