@@ -182,18 +182,6 @@ section h1{
   margin-left: 0px;
 }
 
-.carousel img{
-  height: 100%;
-  object-fit: cover;
-  user-select: none;
-  margin-left: 14px;
-  width: calc(100% / 3);
-  border-radius: 10px;
-}
-.carousel img:first-child{
-  margin-left: 0px;
-}
-
 .ai-sections{
   display: grid;
   grid-template-columns: 50% 50%;
