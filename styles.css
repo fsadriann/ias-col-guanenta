@@ -213,7 +213,7 @@ section h1{
 }
 .col-left{
   background-color: var(--head-color);
-  height: 50vh;
+  height: 60vh;
   color: var(--head-text-color);
   padding: 20px;
   border-bottom-right-radius: 25px;
