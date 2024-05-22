@@ -302,10 +302,13 @@ section h1{
     grid-template-rows: 50% 50%;
     gap: 130px;
   }
-  .col-left{
-    top: 40px;
+  .col-left,
+  .col-right{
+    height: 40vh;
   }
   .col-right img{
     width: auto;
+    top: 0;
+    transform: translateY(-90px);
   }
 }
