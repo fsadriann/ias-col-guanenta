@@ -218,7 +218,7 @@ section h1{
   text-align: justify;
   margin-left: 5%;
   background-color: var(--head-color);
-  height: auto;
+  height: 50vh;
   color: var(--head-text-color);
   padding: 20px;
   border-bottom-right-radius: 25px;
