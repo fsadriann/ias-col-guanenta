@@ -15,7 +15,7 @@
     --head-text-color: #eee;
     --text-color: #333;
     --main-color: #296cfd;
-    --menu-color: #aaabfd;
+    --menu-color: #484864;
     --section-color: #c1ccf7;
     
 }
@@ -304,7 +304,7 @@ section h1{
       transition: all .5s ease;
   }
   .navbar a:hover{
-      color: var(--text-color);
+      color: var(--head-text-color);
       transform: translateY(5px);
       background-color: #fff;
       padding-top: 12px;
