@@ -201,19 +201,24 @@ section h1{
   align-items: center;
   align-content: center;
   justify-content: center;
+  text-align: center;
 }
 .ai-sections img{
   height: 55vh;
   border-radius: 15px;
   align-items: center;
+  margin-left: 20%;
+  width: 350px;
 }
 
 .col-left h1{
   padding-bottom: 10px;
 }
 .col-left{
+  text-align: justify;
+  margin-left: 5%;
   background-color: var(--head-color);
-  height: 50vh;
+  height: auto;
   color: var(--head-text-color);
   padding: 20px;
   border-bottom-right-radius: 25px;
@@ -253,11 +258,21 @@ section h1{
   .wrapper{
       transition: all .5s ease;
   }
+  .col-left{
+    height: auto;
+  }
 }
 
 @media (max-width: 920px){
   #menu-icon{
       display: block;
+  }
+  .col-left{
+    height: auto;
+  }
+  .ai-sections img{
+    margin-left: 5%;
+    margin-right: 10% ;
   }
   .navbar{
       margin-right: 0 ;
