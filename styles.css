@@ -297,4 +297,15 @@ section h1{
   .navbar.open{
       right: 0;
   }
+  .ai-sections{
+    grid-template-columns: 90%;
+    grid-template-rows: 50% 50%;
+    gap: 130px;
+  }
+  .col-left{
+    top: 40px;
+  }
+  .col-right img{
+    width: auto;
+  }
 }
