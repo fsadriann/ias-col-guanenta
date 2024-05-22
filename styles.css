@@ -312,11 +312,13 @@ section h1{
   }
   .col-left,
   .col-right{
-    height: 40vh;
+    height: auto;
+  }
+  .col-left{
+    top: 60px;
   }
   .col-right img{
     width: auto;
     top: 0;
-    transform: translateY(-90px);
   }
 }
