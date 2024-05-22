@@ -267,13 +267,6 @@ section h1{
   #menu-icon{
       display: block;
   }
-  .col-left{
-    height: auto;
-  }
-  .ai-sections img{
-    margin-left: 5%;
-    margin-right: 10% ;
-  }
   .navbar{
       margin-right: 0 ;
       position: absolute;
